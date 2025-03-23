@@ -89,40 +89,44 @@
 
 /* Estilo para los elementos del header - línea con animación */
 .navbar-nav .nav-link {
-    position: relative; 
-    overflow: hidden; 
+    position: relative;
+    overflow: hidden;
 }
 
 .navbar-nav .nav-link::after {
-    content: ''; 
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
     width: 0;
-    height: 3px; 
+    height: 3px;
     background-color: #581435;
     transition: width 0.3s ease;
 }
 
 /* Mostrar la línea al pasar el cursor */
 .navbar-nav .nav-link:hover::after {
-    width: 100%; 
+    width: 100%;
 }
-.navbar img{
+
+.navbar img {
     all: unset;
     width: 140px;
     height: 80px;
 }
-.contactoBtn{
+
+.contactoBtn {
     border-radius: 50px;
     width: 10em;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.contactoBtn:hover{
+
+.contactoBtn:hover {
     background-color: white !important;
     color: #581435;
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
+
 #navbar {
     all: unset;
     display: flex;
@@ -130,9 +134,11 @@
     background-color: transparent !important;
     justify-content: space-around;
 }
-.navbar{
-    background-color: #ECBCE7!important;
+
+.navbar {
+    background-color: #ECBCE7 !important;
 }
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
@@ -141,7 +147,7 @@
 
 
 .navbar .navbar-nav .nav-link {
-    
+
     padding: 10px 0;
     color: #696E77;
     font-weight: 500;
@@ -160,7 +166,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
-    
+
 }
 
 @media (max-width: 991.98px) {
@@ -321,6 +327,54 @@
     justify-content: center;
 }
 
+/*Estilos sección servicios*/
+.servicios-section {
+    background-image: url('/img/section-bg.png');
+    background-size: cover;
+    /* La imagen cubrirá toda la sección */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen en la sección */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.servicios-container {
+    margin: 4.5em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.servicios-text-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.servicios-text-container h2 {
+    font-size: 2.5rem !important;
+    padding-bottom: 20px;
+}
+
+.servicios-text-container p {
+    text-align: center;
+    padding: 20px;
+    background-color: #ECBCE7;
+    border-radius: 10px;
+}
+
+#accordionPanelsStayOpenExample {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
 
 /*** Service ***/
 .service-item {
