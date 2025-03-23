@@ -329,7 +329,7 @@
 
 /*Estilos sección servicios*/
 .servicios-section {
-    background-image: url('/img/section-bg.png');
+    background-image: url('img/section-bg.png');
     background-size: cover;
     /* La imagen cubrirá toda la sección */
     background-repeat: no-repeat;
