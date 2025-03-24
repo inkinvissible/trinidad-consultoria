@@ -336,10 +336,15 @@
     /* Evita que la imagen se repita */
     background-position: center;
     /* Centra la imagen en la sección */
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+
+.accordion-collapse {
+    transition: height 0.3s ease-in-out;
 }
 
 .servicios-container {
@@ -414,7 +419,15 @@
 }
 
 
-/*** Team ***/
+/*** Team -- ALIADOS***/
+.aliados-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8em;
+}
+
 .team-item {
     position: relative;
     overflow: hidden;
@@ -427,6 +440,7 @@
 
 .team-item:hover img {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .team-text {
@@ -441,6 +455,7 @@
 .team-item:hover .team-text {
     bottom: 0;
     opacity: 1;
+    cursor: pointer;
 }
 
 .team-item a.btn {
