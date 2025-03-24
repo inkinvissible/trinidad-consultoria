@@ -413,12 +413,24 @@
 
 
 /*** Appointment ***/
+/*
 .appointment {
     background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
+*/
+.contacto-section{
+    border-radius: 20px;
+    background-color: #ECBCE7;
+}
+.contacto-container{
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.contacto-container button{
+    border-radius: 50px;
 
-
+}
 /*** Team -- ALIADOS***/
 .aliados-cards {
     display: flex;
@@ -598,4 +610,13 @@
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+}
+/*sepadaror*/
+.custom-separator {
+    border: none;
+    height: 10em; /* Grosor del separador */
+    background-color: #ECBCE7; /* Color del separador */
+    width: 100%!important; /* Ancho opcional */
+    
+    
 }
