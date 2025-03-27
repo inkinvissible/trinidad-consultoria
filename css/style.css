@@ -632,4 +632,21 @@ section {
         text-align: center;
         padding: 15px;
     }
+    /*sección contacto*/
+    .contacto-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .llamanos_container{
+        width: 15em;
+        height: 3em;
+        padding: 1rem;
+    }
+    .llamanos_container h5{
+        font-size: 15px;
+    }
+    .contacto-section {
+        padding: 0px!important;
+    }
 }
