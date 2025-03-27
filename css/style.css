@@ -611,12 +611,25 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
-/*sepadaror*/
-.custom-separator {
-    border: none;
-    height: 10em; /* Grosor del separador */
-    background-color: #ECBCE7; /* Color del separador */
-    width: 100%!important; /* Ancho opcional */
-    
-    
+
+section {
+    scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
+/*VISTA MÓVIL*/
+@media screen and (max-width: 768px) {
+    /*sección servicios*/
+    .servicios-section{
+        display: flex;
+        flex-direction: row;
+        background-image: none;
+        background-color: #581435;
+    }
+    .servicios-container{
+        margin: 0%;
+    }
+    .servicios-section h2{
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
 }
