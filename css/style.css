@@ -431,6 +431,9 @@
     border-radius: 50px;
 
 }
+.contacto-card{
+    padding-left: 0%!important;
+}
 /*** Team -- ALIADOS***/
 .aliados-cards {
     display: flex;
@@ -617,6 +620,10 @@ section {
 }
 /*VISTA MÓVIL*/
 @media screen and (max-width: 768px) {
+    /*header*/
+    .navbar .navbar-brand img{
+        max-height: none;
+    }
     /*sección servicios*/
     .servicios-section{
         display: flex;
@@ -646,7 +653,16 @@ section {
     .llamanos_container h5{
         font-size: 15px;
     }
-    .contacto-section {
-        padding: 0px!important;
+    .contacto-main-div{
+        all: unset;
+    }
+    .contacto-container{
+        all: unset;
+    }
+    #whatsappForm{
+        all: unset;
+    }
+    .contacto-card{
+        padding-left: 1rem!important;
     }
 }
