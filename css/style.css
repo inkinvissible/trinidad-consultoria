@@ -665,4 +665,9 @@ section {
     .contacto-card{
         padding-left: 1rem!important;
     }
+    /*sidebar*/
+    #navbar{
+        flex-direction: column;
+    }
+
 }
